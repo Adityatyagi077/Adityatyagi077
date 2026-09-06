@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520">
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#18352f"/></pattern></defs>
+<rect width="1200" height="520" fill="#050908"/><rect width="1200" height="520" fill="url(#grid)" opacity=".55"/>
+<rect x="28" y="28" width="1144" height="464" rx="18" fill="none" stroke="#39ff9a" stroke-width="2"/>
+<path d="M28 94H1172M28 426H1172" stroke="#39ff9a" opacity=".22"/>
+<text x="70" y="76" fill="#77ffc0" font-family="monospace" font-size="18">GAME OS // BOOT TERMINAL // BUILD 007</text>
+<text x="70" y="160" fill="#39ff9a" font-family="monospace" font-size="72" font-weight="700">ADITYA</text>
+<text x="74" y="200" fill="#b7c9c1" font-family="monospace" font-size="22">PLAYER 007  //  DEVELOPER  //  QUEST MODE</text>
+<rect x="72" y="250" width="1056" height="2" fill="#39ff9a" opacity=".35"/>
+<text x="74" y="300" fill="#7affbe" font-family="monospace" font-size="20">CURRENT QUEST</text>
+<text x="74" y="344" fill="#fff" font-family="monospace" font-size="34" font-weight="700">PRAHARI NETRA</text>
+<text x="74" y="382" fill="#8ea59c" font-family="monospace" font-size="18">AI SURVEILLANCE // COMMAND SYSTEM // ACTIVE BUILD</text>
+<rect x="74" y="430" width="650" height="10" rx="5" fill="#18352f"/><rect x="74" y="430" width="560" height="10" rx="5" fill="#39ff9a"/>
+<text x="750" y="440" fill="#77ffc0" font-family="monospace" font-size="18">XP 86%</text>
+<text x="1030" y="470" fill="#39ff9a" font-family="monospace" font-size="16">▶ PRESS START</text>
+<circle cx="1070" cy="140" r="62" fill="none" stroke="#39ff9a" stroke-width="2" opacity=".5"/>
+<path d="M1035 140h70M1070 105v70" stroke="#39ff9a" opacity=".4"/><circle cx="1070" cy="140" r="7" fill="#39ff9a"/>
+</svg>

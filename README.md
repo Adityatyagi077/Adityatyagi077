@@ -1,136 +1,123 @@
-<div align="center">
+# 🎮 ADITYA // GAME OS
 
-<img src="assets/start-screen.svg" alt="Aditya Tyagi Developer Game Terminal" width="100%"/>
+<p align="center"><img src="assets/game-os.svg" alt="Aditya Game OS" width="900"></p>
 
-# 🎮 `PLAYER PROFILE // ADITYA TYAGI`
+<p align="center"><b>PLAYER 007</b> · <b>QUEST MODE</b> · <b>SYSTEM ONLINE</b></p>
 
-`STATUS: ONLINE` • `CLASS: FULL STACK + AI/ML` • `MODE: BUILD`
-
-<a href="https://github.com/Adityatyagi077/prahari-netra">
-<img src="https://img.shields.io/badge/▶_ENTER_MAIN_QUEST-PRAHARI_NETRA-00ff9c?style=for-the-badge&logoColor=black"/>
-</a>
-
-</div>
+<p align="center">
+<a href="https://github.com/Adityatyagi077/prahari-netra">⚔️ PRAHARI NETRA</a> ·
+<a href="https://github.com/Adityatyagi077/Game007">🎮 GAME007</a> ·
+<a href="https://github.com/Adityatyagi077">🛰️ PROFILE</a>
+</p>
 
 ---
 
-## 🕹️ PLAYER TERMINAL
+## ◈ PLAYER HUD
 
-```text
-╔══════════════════════════════════════════════════════════════╗
-║                     PLAYER PROFILE                          ║
-╠══════════════════════════════════════════════════════════════╣
-║                                                              ║
-║  PLAYER        : ADITYA TYAGI                               ║
-║  CLASS         : FULL STACK / AI ENGINEER                   ║
-║  SPECIALITY    : COMPUTER VISION                            ║
-║  CURRENT QUEST : PRAHARI NETRA                              ║
-║  STATUS        : BUILDING                                   ║
-║                                                              ║
-║  PRIMARY SKILLS                                               ║
-║  ├── C++                                                     ║
-║  ├── Python                                                  ║
-║  ├── TypeScript                                              ║
-║  ├── React                                                   ║
-║  └── AI / Computer Vision                                   ║
-║                                                              ║
-╚══════════════════════════════════════════════════════════════╝
-```
+| SYSTEM | STATUS |
+|---|---|
+| 🧑‍🚀 Player | **Aditya Tyagi** |
+| 🎮 Mode | **Builder / Quest Mode** |
+| ⚡ Core | **AI · Full Stack · Systems** |
+| 🟢 Status | **ONLINE** |
+| 🗺️ Current Zone | **Engineering Lab** |
 
-## 🎯 MAIN QUEST
+> **Objective:** Build ambitious software, learn the systems behind it, and ship working missions.
 
-### 🛡️ PRAHARI NETRA
+---
 
-**AI-Powered Tactical Surveillance & Command Platform**
+## ⚔️ QUEST BOARD
 
-```text
-QUEST STATUS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### `MAIN QUEST // PRAHARI NETRA`
 
-[████████████████████████████░░░░] ACTIVE
+**AI-powered tactical surveillance & command platform**
 
-[x] Command Center
-[x] Authentication
-[x] Interactive Operations Map
-[x] Camera Monitoring
-[x] Phone Live
-[x] AI / ML Service
-[x] Target Analysis
-[x] Evidence Workflow
-[x] System Monitoring
-[ ] Production Deployment
-```
+**MISSION STATUS** `██████████████████░░` **90%**
 
-**[ ▶ ENTER QUEST ](https://github.com/Adityatyagi077/prahari-netra)**
+- 🗺️ Operations command map
+- 📹 Multi-camera surveillance
+- 🤖 YOLO-powered AI analysis
+- 🧾 Evidence / incident workflow
+- 🩺 System health & readiness
+- 🔐 Access and audit controls
+
+**Reward:** `SYSTEM DESIGN + AI + FULL-STACK XP`
+
+[ ENTER QUEST →](https://github.com/Adityatyagi077/prahari-netra)
+
+### `SIDE QUEST // TRAVEL JARVIS`
+
+**AI travel assistant** — conversational planning, recommendations and travel intelligence.
+
+**STATUS:** `IN DEVELOPMENT`
 
 ---
 
 ## 🌳 SKILL TREE
 
 ```text
-                         ┌──────────────┐
-                         │   ENGINEER   │
-                         └──────┬───────┘
-                                │
-             ┌──────────────────┼──────────────────┐
-             ▼                  ▼                  ▼
-          🧩 DSA              🧠 AI/ML           ⚡ WEB
-             │                  │                  │
-        C++ / STL           Python / YOLO    React / TS / Node
-             │                  │                  │
-             └──────────────────┼──────────────────┘
-                                ▼
-                         🚀 REAL PROJECTS
+                         ┌─ AI / ML
+                         │   ├─ Computer Vision
+                         │   └─ YOLO
+                         │
+PLAYER ──┬─ ENGINEERING ┼─ FULL STACK
+         │              │   ├─ React
+         │              │   ├─ TypeScript
+         │              │   └─ Node.js
+         │              │
+         ├─ SYSTEMS     ─── APIs / Databases
+         │
+         └─ TOOLS       ─── Git / GitHub / Linux
 ```
-
-## 🎒 INVENTORY
-
-`C++` `Python` `TypeScript` `JavaScript` `React` `Vite` `Node.js` `YOLO` `Computer Vision` `OpenAPI` `Drizzle` `Linux` `Git`
-
-## 🏆 ACHIEVEMENTS
-
-```text
-[🏆] REAL SYSTEM BUILDER     Multi-service application
-[🧠] AI EXPLORER             Computer vision integration
-[🗺️] SYSTEM ARCHITECT        Operational command interface
-[💻] FULL STACK QUEST        Frontend + Backend + ML
-[🐧] LINUX WARRIOR           Linux development workflow
-[🔥] DAILY GRIND              Continuous DSA + engineering
-```
-
-## 📟 TERMINAL LOG
-
-```text
-> booting developer.exe
-[OK] C++ module loaded
-[OK] Python module loaded
-[OK] React module loaded
-[OK] TypeScript module loaded
-[OK] AI module loaded
-
-> loading current quest...
-[OK] PRAHARI NETRA
-[OK] FRONTEND
-[OK] BACKEND
-[OK] ML SERVICE
-
-> SYSTEM READY
-
-aditya@dev:~$ _
-```
-
-## 🎮 GAME RULES
-
-> **BUILD → BREAK → DEBUG → LEARN → REPEAT**
-
-`XP > COMFORT`  
-`CURIOSITY > EGO`  
-`BUILDING > TALKING`
 
 ---
 
-<div align="center">
+## 🎒 INVENTORY
 
-### `> GAME NEVER ENDS.`
+`⚔️ PRAHARI NETRA` · `🤖 TRAVEL JARVIS` · `🐧 LINUX` · `⌨️ C++` · `🧠 AI/ML` · `⚛️ REACT` · `🟦 TYPESCRIPT`
 
-</div>
+---
+
+## 🏆 ACHIEVEMENTS UNLOCKED
+
+- `◆ FIRST SHIP` — Built and shipped a full project
+- `◆ SYSTEM BUILDER` — Connected frontend, backend and AI services
+- `◆ AI VISION` — Integrated computer-vision workflow
+- `◆ LINUX RUNNER` — Building and deploying from Linux
+- `◆ QUEST MODE` — Consistent project + placement grind
+
+---
+
+## 📡 GITHUB ACTIVITY
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=Adityatyagi077&show_icons=true&hide_border=true&theme=transparent" alt="GitHub stats">
+</p>
+
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=Adityatyagi077&theme=transparent&hide_border=true" alt="GitHub streak">
+</p>
+
+---
+
+## 🛰️ COMMAND LINKS
+
+```text
+[01] PROFILE     → github.com/Adityatyagi077
+[02] MAIN QUEST  → github.com/Adityatyagi077/prahari-netra
+[03] GAME OS     → github.com/Adityatyagi077/Game007
+```
+
+---
+
+## `SYSTEM MESSAGE`
+
+```text
+> Boot sequence complete.
+> Player identity loaded.
+> Quest engine online.
+> No shortcuts detected.
+> Build. Break. Learn. Ship.
+```
+
+<p align="center"><b>PRESS START // BUILD THE NEXT LEVEL</b></p>
