@@ -1,4 +1,4 @@
-# 🔴 ADITYA // RED GAME OS
+# 🔴 ADITYA TYAGI //
 
 <p align="center">
   <img src="assets/red-game-os.svg" alt="Aditya Red Game OS" width="900">
