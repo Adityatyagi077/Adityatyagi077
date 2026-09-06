@@ -1,0 +1,38 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#050807"/>
+    <stop offset="1" stop-color="#07130f"/>
+  </linearGradient>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#00ff9c" stroke-opacity=".08"/>
+  </pattern>
+</defs>
+
+<rect width="1200" height="500" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="500" rx="18" fill="url(#grid)"/>
+<rect x="22" y="22" width="1156" height="456" rx="12" fill="none" stroke="#00ff9c" stroke-opacity=".55"/>
+<rect x="35" y="35" width="1130" height="430" rx="9" fill="none" stroke="#00ff9c" stroke-opacity=".15"/>
+
+<text x="65" y="82" fill="#00ff9c" font-family="monospace" font-size="18" letter-spacing="4">ADITYA TYAGI // PLAYER TERMINAL</text>
+<circle cx="1095" cy="75" r="7" fill="#00ff9c" filter="url(#glow)"/>
+<text x="1110" y="82" fill="#7affc2" font-family="monospace" font-size="14">ONLINE</text>
+
+<text x="600" y="190" text-anchor="middle" fill="#ffffff" font-family="monospace" font-size="62" font-weight="700" letter-spacing="8" filter="url(#glow)">ADITYA</text>
+<text x="600" y="245" text-anchor="middle" fill="#00ff9c" font-family="monospace" font-size="30" letter-spacing="9">DEVELOPER // QUEST MODE</text>
+
+<line x1="245" y1="278" x2="955" y2="278" stroke="#00ff9c" stroke-opacity=".35"/>
+
+<text x="600" y="320" text-anchor="middle" fill="#b7c9c1" font-family="monospace" font-size="16">CLASS: FULL STACK + AI/ML</text>
+<text x="600" y="348" text-anchor="middle" fill="#b7c9c1" font-family="monospace" font-size="16">CURRENT QUEST: PRAHARI NETRA</text>
+
+<rect x="420" y="380" width="360" height="55" rx="8" fill="#00ff9c" fill-opacity=".08" stroke="#00ff9c" stroke-width="2"/>
+<text x="600" y="415" text-anchor="middle" fill="#00ff9c" font-family="monospace" font-size="19" font-weight="700" letter-spacing="3">▶ PRESS START</text>
+
+<text x="65" y="448" fill="#56766a" font-family="monospace" font-size="12">SYSTEM READY • BUILD • DEBUG • LEARN • REPEAT</text>
+<text x="1135" y="448" text-anchor="end" fill="#56766a" font-family="monospace" font-size="12">v1.0 // DEV-WORLD</text>
+</svg>
