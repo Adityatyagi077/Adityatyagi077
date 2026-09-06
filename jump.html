@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JUMP // Survival Protocol</title>
+<style>
+:root{--r:#ff3030;--bg:#080405;--panel:#12090b;--line:#54161c;--txt:#f6dddd}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font-family:monospace;display:grid;place-items:center;min-height:100vh}
+.game{width:min(900px,94vw);border:1px solid var(--r);background:linear-gradient(180deg,#16090b,#080405);padding:22px;box-shadow:0 0 35px #ff303022}
+h1{margin:0;color:var(--r);letter-spacing:4px}.hud{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;border-block:1px solid var(--line);padding:12px 0;margin:16px 0}
+#arena{position:relative;height:300px;overflow:hidden;border:1px solid var(--line);background:repeating-linear-gradient(0deg,transparent 0 29px,#260d11 30px),repeating-linear-gradient(90deg,transparent 0 29px,#260d11 30px)}
+.player,.ob{position:absolute;bottom:30px}.player{left:70px;width:30px;height:30px;background:var(--r)}.ob{width:28px;height:45px;background:#eee0e0;right:-40px}.ground{position:absolute;bottom:29px;left:0;right:0;border-top:1px solid var(--r)}
+.controls{margin-top:14px;color:#cdaaaa}.msg{color:#ff7777;min-height:20px;margin-top:10px}
+button{font:inherit;background:#16090b;color:var(--r);border:1px solid var(--r);padding:10px 16px;cursor:pointer}button:hover{background:#ff3030;color:#080405}
+@media(max-width:560px){#arena{height:240px}.player{left:35px}}
+</style>
+</head>
+<body>
+<main class="game">
+<h1>JUMP // SURVIVAL PROTOCOL</h1>
+<div class="hud"><span>SCORE: <b id="score">0</b></span><span>BEST: <b id="best">0</b></span><span>STATUS: <b id="status">READY</b></span></div>
+<div id="arena" tabindex="0" aria-label="Jump game">
+<div class="player" id="player"></div><div class="ground"></div>
+</div>
+<div class="controls">SPACE / ↑ / W = JUMP · P = PAUSE · R = RESTART</div>
+<div class="msg" id="msg">Press SPACE or click the arena to start.</div>
+<button id="restart" type="button">RESTART</button>
+</main>
+<script>
+(()=>{const a=document.querySelector('#arena'),p=document.querySelector('#player'),s=document.querySelector('#score'),b=document.querySelector('#best'),st=document.querySelector('#status'),m=document.querySelector('#msg'),rb=document.querySelector('#restart');let y=0,vy=0,obs=[],score=0,running=false,paused=false,last=0,spawn=0,best=Number(localStorage.getItem('jump-best')||0);b.textContent=best;
+function reset(){obs.forEach(o=>o.el.remove());obs=[];score=0;y=0;vy=0;spawn=0;running=false;paused=false;last=0;s.textContent=0;st.textContent='READY';m.textContent='Press SPACE or click the arena to start.';p.style.bottom='30px'}
+function jump(){if(!running){running=true;st.textContent='RUNNING';m.textContent='Clear the blocks.'} if(y<=0){vy=650}}
+function add(){const el=document.createElement('div');el.className='ob';a.append(el);obs.push({el,x:a.clientWidth+40});}
+function loop(t){if(!last)last=t;const dt=Math.min(.032,(t-last)/1000);last=t;if(running&&!paused){vy-=1500*dt;y+=vy*dt;if(y<0)y=0;p.style.bottom=(30+y)+'px';spawn+=dt;if(spawn>1.15){add();spawn=0}obs.forEach(o=>{o.x-=300*dt;o.el.style.right='auto';o.el.style.left=o.x+'px';if(!o.hit&&o.x<105&&o.x>45&&y<42){o.hit=true;running=false;st.textContent='GAME OVER';m.textContent='Impact detected. Press R or RESTART.';if(score>best){best=score;localStorage.setItem('jump-best',best);b.textContent=best}}if(!o.scored&&o.x<40){o.scored=true;score++;s.textContent=score}});obs=obs.filter(o=>{if(o.x<-60){o.el.remove();return false}return true})}requestAnimationFrame(loop)}
+function key(e){if(['Space','ArrowUp','KeyW'].includes(e.code)){e.preventDefault();jump()}if(e.code==='KeyP'&&running){paused=!paused;st.textContent=paused?'PAUSED':'RUNNING'}if(e.code==='KeyR')reset()}
+document.addEventListener('keydown',key);a.addEventListener('click',jump);rb.addEventListener('click',reset);requestAnimationFrame(loop)})()
+</script>
+</body>
+</html>

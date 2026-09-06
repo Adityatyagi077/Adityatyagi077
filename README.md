@@ -1,94 +1,122 @@
-# 🎮 ADITYA // GAME OS
-
-<p align="center"><img src="assets/game-os.svg" alt="Aditya Game OS" width="900"></p>
-
-<p align="center"><b>PLAYER 007</b> · <b>QUEST MODE</b> · <b>SYSTEM ONLINE</b></p>
+# 🔴 ADITYA // RED GAME OS
 
 <p align="center">
-<a href="https://github.com/Adityatyagi077/prahari-netra">⚔️ PRAHARI NETRA</a> ·
-<a href="https://github.com/Adityatyagi077/Game007">🎮 GAME007</a> ·
-<a href="https://github.com/Adityatyagi077">🛰️ PROFILE</a>
+  <img src="assets/red-game-os.svg" alt="Aditya Red Game OS" width="900">
+</p>
+
+<p align="center"><b>PLAYER 007</b> · <b>RED ALERT MODE</b> · <b>SYSTEM ONLINE</b></p>
+
+<p align="center">
+<a href="https://github.com/Adityatyagi077/prahari-netra">⚔️ MAIN QUEST</a> ·
+<a href="https://github.com/Adityatyagi077/Game007">🎮 GAME ZONE</a> ·
+<a href="https://github.com/Adityatyagi077">🛰️ PLAYER PROFILE</a>
 </p>
 
 ---
 
-## ◈ PLAYER HUD
+## 🔴 COMMAND HUD
 
-| SYSTEM | STATUS |
+| MODULE | STATUS |
 |---|---|
-| 🧑‍🚀 Player | **Aditya Tyagi** |
-| 🎮 Mode | **Builder / Quest Mode** |
-| ⚡ Core | **AI · Full Stack · Systems** |
-| 🟢 Status | **ONLINE** |
-| 🗺️ Current Zone | **Engineering Lab** |
+| PLAYER | `ADITYA // 007` |
+| MODE | `RED ALERT / QUEST` |
+| SYSTEM | `ONLINE` |
+| XP | `86 / 100` |
+| CURRENT ZONE | `ENGINEERING LAB` |
+| MAIN QUEST | `PRAHARI NETRA` |
 
-> **Objective:** Build ambitious software, learn the systems behind it, and ship working missions.
+> **MISSION:** Build systems. Solve problems. Ship projects. Level up.
 
 ---
 
-## ⚔️ QUEST BOARD
+## 🎮 GAME MODE
 
-### `MAIN QUEST // PRAHARI NETRA`
+### `JUMP // SURVIVAL PROTOCOL`
 
-**AI-powered tactical surveillance & command platform**
+**Objective:** Jump over incoming blocks and survive as long as possible.
 
-**MISSION STATUS** `██████████████████░░` **90%**
+**Controls:** `SPACE` / `↑` / `W` to jump · `P` to pause · `R` to restart
 
-- 🗺️ Operations command map
-- 📹 Multi-camera surveillance
-- 🤖 YOLO-powered AI analysis
-- 🧾 Evidence / incident workflow
-- 🩺 System health & readiness
-- 🔐 Access and audit controls
+**Difficulty:** `NORMAL`
 
-**Reward:** `SYSTEM DESIGN + AI + FULL-STACK XP`
+**Scoring:** +1 for every obstacle cleared.
+
+> The mini-game is the local `jump.html` in this repository. Open it directly from the repo files to play.
+
+---
+
+## ⚔️ QUEST SELECT
+
+### `01 // PRAHARI NETRA`
+**STATUS:** `ACTIVE`
+
+AI-powered tactical surveillance and command platform.
+
+`MAP` `CAMERAS` `AI VISION` `EVIDENCE` `HEALTH` `AUDIT`
+
+**REWARD:** `AI + FULL-STACK + SYSTEM DESIGN XP`
 
 [ ENTER QUEST →](https://github.com/Adityatyagi077/prahari-netra)
 
-### `SIDE QUEST // TRAVEL JARVIS`
-
-**AI travel assistant** — conversational planning, recommendations and travel intelligence.
-
+### `02 // TRAVEL JARVIS`
 **STATUS:** `IN DEVELOPMENT`
+
+AI travel assistant for conversational planning and travel intelligence.
+
+### `03 // GAME007`
+**STATUS:** `GAME ZONE ONLINE`
+
+The experimental zone for the Game OS interface and mini-games.
+
+[ ENTER GAME ZONE →](https://github.com/Adityatyagi077/Game007)
 
 ---
 
 ## 🌳 SKILL TREE
 
 ```text
-                         ┌─ AI / ML
-                         │   ├─ Computer Vision
-                         │   └─ YOLO
-                         │
-PLAYER ──┬─ ENGINEERING ┼─ FULL STACK
-         │              │   ├─ React
-         │              │   ├─ TypeScript
-         │              │   └─ Node.js
-         │              │
-         ├─ SYSTEMS     ─── APIs / Databases
-         │
-         └─ TOOLS       ─── Git / GitHub / Linux
+PLAYER 007
+│
+├── ⚔ ENGINEERING
+│   ├── React
+│   ├── TypeScript
+│   ├── Node.js
+│   └── APIs / Databases
+│
+├── 🧠 AI SYSTEMS
+│   ├── Computer Vision
+│   ├── YOLO
+│   └── AI Applications
+│
+├── 🐧 SYSTEMS
+│   ├── Linux
+│   ├── Git
+│   └── GitHub
+│
+└── ⌨️ CORE
+    └── C++
 ```
 
 ---
 
 ## 🎒 INVENTORY
 
-`⚔️ PRAHARI NETRA` · `🤖 TRAVEL JARVIS` · `🐧 LINUX` · `⌨️ C++` · `🧠 AI/ML` · `⚛️ REACT` · `🟦 TYPESCRIPT`
+`🔴 RED CORE` `⚔️ PRAHARI NETRA` `🤖 TRAVEL JARVIS` `🎮 JUMP PROTOCOL` `🐧 LINUX` `🧠 AI/ML` `⚛️ REACT` `🟦 TYPESCRIPT` `⌨️ C++`
 
 ---
 
-## 🏆 ACHIEVEMENTS UNLOCKED
+## 🏆 ACHIEVEMENTS
 
-- `◆ FIRST SHIP` — Built and shipped a full project
-- `◆ SYSTEM BUILDER` — Connected frontend, backend and AI services
-- `◆ AI VISION` — Integrated computer-vision workflow
-- `◆ LINUX RUNNER` — Building and deploying from Linux
-- `◆ QUEST MODE` — Consistent project + placement grind
+- `◆ FIRST SHIP` — Project shipped
+- `◆ SYSTEM BUILDER` — Frontend + backend + AI connected
+- `◆ AI VISION` — Computer-vision workflow integrated
+- `◆ LINUX RUNNER` — Building from Linux
+- `◆ QUEST MODE` — Project + placement grind
+- `◆ RED ALERT` — Game OS v3 unlocked
 
 ---
 
-## 📡 GITHUB ACTIVITY
+## 📡 PLAYER STATS
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=Adityatyagi077&show_icons=true&hide_border=true&theme=transparent" alt="GitHub stats">
@@ -100,24 +128,16 @@ PLAYER ──┬─ ENGINEERING ┼─ FULL STACK
 
 ---
 
-## 🛰️ COMMAND LINKS
+## 🛰️ COMMAND TERMINAL
 
 ```text
-[01] PROFILE     → github.com/Adityatyagi077
-[02] MAIN QUEST  → github.com/Adityatyagi077/prahari-netra
-[03] GAME OS     → github.com/Adityatyagi077/Game007
+> booting RED GAME OS...
+> loading PLAYER 007...
+> quest database loaded
+> game engine loaded
+> tactical interface online
+> no shortcuts detected
+> BUILD // BREAK // LEARN // SHIP
 ```
 
----
-
-## `SYSTEM MESSAGE`
-
-```text
-> Boot sequence complete.
-> Player identity loaded.
-> Quest engine online.
-> No shortcuts detected.
-> Build. Break. Learn. Ship.
-```
-
-<p align="center"><b>PRESS START // BUILD THE NEXT LEVEL</b></p>
+<p align="center"><b>████ PRESS START // ENTER THE RED ZONE ████</b></p>

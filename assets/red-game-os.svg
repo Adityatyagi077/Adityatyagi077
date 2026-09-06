@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560">
+<defs>
+ <pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#3b1014" stroke-width="1"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect width="1200" height="560" fill="#080405"/><rect width="1200" height="560" fill="url(#g)"/>
+<rect x="24" y="24" width="1152" height="512" rx="16" fill="none" stroke="#ff3030" stroke-width="2"/>
+<path d="M24 92H1176M24 468H1176" stroke="#ff3030" opacity=".3"/>
+<text x="62" y="68" fill="#ff6b6b" font-family="monospace" font-size="18">RED GAME OS // BOOT TERMINAL // BUILD 007</text>
+<text x="62" y="158" fill="#ff3030" font-family="monospace" font-size="72" font-weight="700">ADITYA</text>
+<text x="66" y="198" fill="#d6baba" font-family="monospace" font-size="22">PLAYER 007 // COMMANDER // QUEST MODE</text>
+<text x="66" y="258" fill="#ff7777" font-family="monospace" font-size="20">CURRENT QUEST</text>
+<text x="66" y="306" fill="#ffffff" font-family="monospace" font-size="36" font-weight="700">PRAHARI NETRA</text>
+<text x="66" y="340" fill="#9d8585" font-family="monospace" font-size="17">AI SURVEILLANCE // COMMAND SYSTEM // ACTIVE BUILD</text>
+<text x="66" y="390" fill="#ff7777" font-family="monospace" font-size="18">SYSTEM XP</text>
+<rect x="66" y="410" width="690" height="12" rx="6" fill="#3b1014"/><rect x="66" y="410" width="593" height="12" rx="6" fill="#ff3030"/>
+<text x="780" y="422" fill="#ff7777" font-family="monospace" font-size="18">86 / 100</text>
+<text x="1015" y="492" fill="#ff3030" font-family="monospace" font-size="17">▶ PRESS START</text>
+<circle cx="1045" cy="165" r="72" fill="none" stroke="#ff3030" stroke-width="2" opacity=".55"/>
+<circle cx="1045" cy="165" r="46" fill="none" stroke="#ff3030" opacity=".35"/>
+<path d="M1005 165h80M1045 125v80" stroke="#ff3030" opacity=".55"/>
+<circle cx="1045" cy="165" r="7" fill="#ff3030"/>
+<text x="978" y="268" fill="#ff7777" font-family="monospace" font-size="14">RED ALERT</text>
+</svg>
